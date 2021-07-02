@@ -1,9 +1,7 @@
 ﻿  10875.c
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(27,27): warning C4020: 'go': 실제 매개 변수가 너무 많습니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(68,1): warning C4029: 선언된 정식 매개 변수 목록이 정의와 다릅니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(72,21): warning C4047: '함수': 'int'의 간접 참조 수준이 'int (*)[200]'과(와) 다릅니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(72,17): warning C4024: 'move': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(81,26): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(66): warning C4716: 'changedir': 값을 반환해야 합니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(122): warning C4715: 'move': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(53,9): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(77,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(82,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(69,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(89): warning C4715: 'move': 모든 제어 경로에서 값을 반환하지는 않습니다.
   problem2.vcxproj -> C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\Debug\problem2.exe
