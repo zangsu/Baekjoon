@@ -8,7 +8,7 @@ typedef struct node {
 	int y_axis;
 }node;
 char changedir(char, node *);
-int go(node *, int, int);
+int go(node *, int, int, int);
 int move(node* now, int);
 int main()//10875
 {
