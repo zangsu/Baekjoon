@@ -1,7 +1,7 @@
 ﻿  10875.c
 C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(53,9): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(77,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(82,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(78,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(83,4): warning C4033: 'move'은(는) 값을 반환해야 합니다.
 C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(69,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(89): warning C4715: 'move': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\problem2\10875.c(90): warning C4715: 'move': 모든 제어 경로에서 값을 반환하지는 않습니다.
   problem2.vcxproj -> C:\Users\장혁수\source\repos\Backjun\UCPC2015\problem2\Debug\problem2.exe

@@ -12,34 +12,13 @@ typedef struct node {
 	Link link;
 }node;
 Link move(Link);
-node findnext(Link);
+Link findnext(Link);
 Link changedir(Link, char);
-/*char changedir(char, node *);
-int go(node *, int, int, int[][2*SIZE]);
-int move(node* now, int[][2* SIZE]);*/
 int main()//10875
 {
-	/*int N, a,i, time, sum = 1, grat[2*SIZE][2*SIZE] = { 0 };
-	char direction;
-	node now;
-	now.x_axis = SIZE;
-	now.y_axis = SIZE;
-	now.dir = 'R';
-	grat[SIZE][SIZE] = 1;
-	scanf("%d", &L);
-	scanf("%d", &N);
-	for (i = 0; i < N; i++)
-	{
-		scanf("%d %c", &time, &direction);
-		a = go(&now, time, sum, grat);
-		sum = a;
-		if (die == 1)
-			break;
-		changedir(direction, &now);
-	}
-	printf("%d", sum);*/
 	//배열을 이용한 해결 방법이 메모리 소모가 너무 커서 리스트로 변경
 	int N, i, time, direction, j;
+	char d;
 	Link trace = NULL;
 	trace = (Link)malloc(sizeof(node));
 	trace->dir = 2;
@@ -50,7 +29,18 @@ int main()//10875
 	scanf("%d %d", &L, &N);
 	for (i = 0; i < N; i++)
 	{
-		scanf("%d %c", &time, &direction);
+		scanf("%d %c", &time, &d);
+		switch (d)
+		{
+		case 'L': direction = 0;
+			break;
+		case 'U': direction = 1;
+			break;
+		case'R': direction = 2;
+			break;
+		case 'D': direction = 3;
+			break;
+		}
 		for (j = 0; j < time; j++)
 		{
 			if (die == 1)
@@ -66,46 +56,50 @@ int main()//10875
 }
 Link move(Link trace)
 {
-	int i;
-	node next = findnext(trace);
+	Link next = (Link)malloc(sizeof(node));
+	next = findnext(trace);
 	Link now = trace;
 	while (now->link != NULL)
 	{
-		if (next.x_axis == now->x_axis && next.y_axis == now->y_axis)
+		if (next->x_axis == now->x_axis && next->y_axis == now->y_axis)
 		{
 			die = 1;
-			return;
+			return trace;
 		}
-		else if (next.x_axis > L || next.y_axis > L || next.x_axis < -L || next.y_axis < -L)
+		else if (next->x_axis > L || next->y_axis > L || next->x_axis < -L || next->y_axis < -L)
 		{
 			die = 1;
-			return;
+			return trace;
 		}
 		now = now->link;
 	}
-	now->link = &next;
+	now->link = next;
 	sum++;
 	return trace;
 }
-node findnext(Link now)
+Link findnext(Link trace)
 {
+	Link now = trace;
 	while (now->link != NULL)
 		now = now->link;
-	node next = *now;
-	next.link = NULL;
+	Link next = (Link)malloc(sizeof(node));
+	next->dir = now->dir;
+	next->x_axis = now->x_axis;
+	next->y_axis = now->y_axis;
+	next->link = NULL;
 	switch (now->dir)
 	{
 	case 1:
-		next.y_axis++;
+		next->y_axis++;
 		break;
 	case 3:
-		next.y_axis--;
+		next->y_axis--;
 		break;
 	case 2:
-		next.x_axis++;
+		next->x_axis++;
 		break;
 	case 0:
-		next.x_axis--;
+		next->x_axis--;
 		break;
 	}
 	return next;
