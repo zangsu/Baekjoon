@@ -4,7 +4,8 @@
 int findpage(int, int);
 int finddig(int);
 int difdig(int, int);
-int main()
+int pow(int, int);
+int main()//10876 / 시간초과
 {
 	int i, T, A, B;
 
@@ -22,26 +23,28 @@ int findpage(int A, int B)
 		return (B - A) + 1;
 	else
 	{
-		if (B / pow(10, dig_B) == 1)
+		if (A / pow(10,dig_A) < B / pow(10,dig_B))
 		{
-
+			int result = 1;
+			while (dig_B > dig_A)
+			{
+				result += findpage(pow(10, dig_B - 1), B);
+				dig_B--;
+				B /= 10;
+			}
+			result += findpage(A, B);
+			return result;
 		}
 		else
 		{
-			if (A / pow(10, dig_A) == 1)
+			int result = 1;
+			while (dig_A+1 < dig_B)
 			{
-				int result = 
+				result += findpage(pow(10, dig_A), (A * pow(10, dig_A) - 1));
+				dig_A++;
 			}
-			else
-			{
-				int result = 1;
-				while (dig_B != dig_A)
-				{
-					result += pow(10, dig_B-1);
-					dig_B--;
-				}
-				return result;
-			}
+			result += findpage(pow(10, dig_A), B);
+			return result;
 		}
 	}
 }
@@ -53,7 +56,7 @@ int finddig(int A)
 		i++;
 	return i;
 }
-int pow(a, b)
+int pow(int a, int b)
 {
 	if (b == 1)
 		return a;
