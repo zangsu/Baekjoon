@@ -1,0 +1,5 @@
+﻿  16441.c
+C:\Users\장혁수\source\repos\Backjun\2018 Goricon\16441\16441\16441.c(33,9): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+C:\Users\장혁수\source\repos\Backjun\2018 Goricon\16441\16441\16441.c(66,30): warning C4028: 정식 매개 변수 3이(가) 선언과 다릅니다.
+C:\Users\장혁수\source\repos\Backjun\2018 Goricon\16441\16441\16441.c(66,46): warning C4028: 정식 매개 변수 4이(가) 선언과 다릅니다.
+  16441.vcxproj -> C:\Users\장혁수\source\repos\Backjun\2018 Goricon\16441\Debug\16441.exe
