@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include <stdlib.h>
 void gold(int);
-int main()
+int main()//시간초과
 {
 	int num;
 	while (scanf("%d", &num))
