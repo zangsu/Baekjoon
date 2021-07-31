@@ -3,10 +3,10 @@
 #include<stdlib.h>
 int main()
 {
-	int n, i = 0;
-	float sum = 0, l;
+	int n, i = 0, l;
+	float sum = 0;
 	int* box = NULL;
-	scanf("%d %f", &n, &l);
+	scanf("%d %d", &n, &l);
 	box = (int*)malloc(sizeof(int) * n);
 	for (i = 0; i < n; i++)
 		scanf("%d", &box[i]);
@@ -21,4 +21,4 @@ int main()
 	else
 		printf("unstable");
 	free(box);
-}
+}//¿Ö Æ²·ÈÁö ¤©¤·
