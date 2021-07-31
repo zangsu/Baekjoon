@@ -21,4 +21,5 @@ int main()
 	else
 		printf("unstable");
 	free(box);
-}//왜 틀렸지 ㄹㅇ
+}//테스트케이스는 전부 통과
+
