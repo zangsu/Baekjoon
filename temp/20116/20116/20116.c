@@ -14,7 +14,10 @@ int main()
 	{
 		sum += box[i];
 		if (sum / (n - i) >= box[i - 1] + l || sum / (n - i) <= box[i - 1] - l)
+		{
+			printf("%d", i);
 			break;
+		}
 	}
 	if (i == 0)
 		printf("stable");
