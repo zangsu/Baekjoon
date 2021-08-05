@@ -3,5 +3,5 @@
 #include<stdlib.h>
 int main() //1920¹ø
 {
-
+	int i, a;
 }
