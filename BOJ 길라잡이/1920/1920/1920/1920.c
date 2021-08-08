@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+int* sort(int*, int, int);
 
 int main()//Á¤·Ä + Å½»ö < ÀüÃ¼ Å½»ö?
 {
@@ -17,20 +18,35 @@ int main()//Á¤·Ä + Å½»ö < ÀüÃ¼ Å½»ö?
 	for (i = 0; i < m; i++)
 		scanf("%d", &list[i]);
 
-	for (i = 0; i < m; i++)
-	{
-		for (j = 0; j < n; j++)
-		{
-			if (list[i] == a[j])
-			{
-				printf("1\n");
-				break;
-			}
-		}
-		if (j == n)
-			printf("0\n");
-	}
+	a = sort(a, 0, n);
+
 
 	free(a);
 	free(list);
+}
+int* sort(int* a, int front, int end)
+{
+	int pivot = front;
+	int head = front + 1, tail = end;
+	while (head < tail)
+	{
+		while (a[head] < a[pivot])
+			head++;
+		while (a[tail] > a[pivot])
+			tail--;
+		int temp = a[head];
+		a[head] = a[tail];
+		a[tail] = temp;
+	}
+	int temp = a[pivot];
+	a[tail] = a[pivot];
+	a[pivot] = temp;
+
+	if (front ~~)
+		a = sort(a);
+	if (end ~~)
+		a = sort(a);
+
+	return a;
+
 }
