@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class BJ1193{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int small = 1; //????????? ?????? level??? ??? level ?????? ??????
+        int index = 0; //????????? ???????????? ????????? level???????????? ??????
+
+        if(num != 1){
+            while( (small*(small + 1) / 2) < num )
+                small++;
+            small--;
+            index = num - (small*(small + 1) / 2);
+            if(small % 2 == 0){
+                System.out.printf("%d/%d", small + 2 - index, index);
+            }
+            else{
+                System.out.printf("%d/%d", index, small + 2 - index);
+            }
+        }
+        else{
+            System.out.printf("1/1");
+        }
+    }
+}
