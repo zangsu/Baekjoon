@@ -17,10 +17,9 @@ class BJ10250{
                 RoomFloor = height;
             }
             System.out.printf("%d", RoomFloor);
-            if(RoomIndex < 10)
+            if(RoomIndex < 9)
                 System.out.printf("0");
             System.out.printf("%d\n", RoomIndex+1);
-
         }
     }
 }
