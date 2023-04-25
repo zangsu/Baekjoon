@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class GeneralParameter {
+public class GeneralParameter {
+	int number;
+
+	void incNum(int number) {
+		number++;
+	}
 }

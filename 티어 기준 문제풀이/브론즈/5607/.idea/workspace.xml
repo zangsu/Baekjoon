@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ea4abb0-4449-4a03-b192-232d3493f0f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../temp/temp/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../네이버 파이낸셜/문제 1/src/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11943/src/BJ11943.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BJ5607.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../브론즈 2/2920/src/BJ2920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../브론즈5/2475/src/BJ2475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버 3/1874/src/BJ1874.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버 3/1929/src/BJ1929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/1012/src/BJ1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/1024/src/BJ1024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/11053/src/BJ11053.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/11724/src/BJ11724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/18111/src/BJ18111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/1912/src/BJ1912.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버2/2805/src/BJ2805.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../실버4/1018/src/BJ1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../실버4/10773/src/BJ10773.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../실버4/10773/src/BJ10773.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../실버4/11047/src/BJ11047.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../실버4/11047/src/BJ11047.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../실버4/11399/src/BJ11399.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../실버4/11399/src/BJ11399.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../실버4/src/BJ9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../실버4/src/BJ9012.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2J9sia9nWd9dSFlRPbUb4BaGUKs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ea4abb0-4449-4a03-b192-232d3493f0f0" name="Changes" comment="" />
+      <created>1671501765009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671501765009</updated>
+      <workItem from="1671501766728" duration="250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
